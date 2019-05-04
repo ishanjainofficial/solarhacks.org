@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="259" column="139" selection-start-line="259" selection-start-column="139" selection-end-line="259" selection-end-column="139" />
+            <state relative-caret-position="408">
+              <caret line="528" column="112" selection-start-line="528" selection-start-column="112" selection-end-line="528" selection-end-column="112" />
               <folding>
                 <element signature="e#3810#3817#0" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -109,12 +109,12 @@
       <workItem from="1556939847466" duration="1433000" />
       <workItem from="1557006318034" duration="828000" />
       <workItem from="1557010981480" duration="119000" />
-      <workItem from="1557013532346" duration="106000" />
+      <workItem from="1557013532346" duration="358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2486000" />
+    <option name="totallyTimeSpent" value="2738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1400" height="771" extended-state="0" />
@@ -146,8 +146,8 @@
     <entry file="file://$PROJECT_DIR$/images/speaker-img.jpg" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="259" column="139" selection-start-line="259" selection-start-column="139" selection-end-line="259" selection-end-column="139" />
+        <state relative-caret-position="408">
+          <caret line="528" column="112" selection-start-line="528" selection-start-column="112" selection-end-line="528" selection-end-column="112" />
           <folding>
             <element signature="e#3810#3817#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
