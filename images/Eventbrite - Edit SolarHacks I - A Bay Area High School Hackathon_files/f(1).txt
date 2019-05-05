@@ -1,0 +1,1 @@
+/* API Response */ _xdc_._77jbfq && _xdc_._77jbfq([{"id":"tuwtvtuwttwvt","base":[345658368,831716352],"zrange":[13,13],"layer":"m@466173768","features":[{"id":"16803156051212637775","a":[0,0],"bb":[-35,-28,35,-11,-41,-15,42,2],"c":"{\"1\":{\"title\":\"Ardenwood Historic Farm\"}}"}]},{"id":"tuwtvtuwttwvu","zrange":[13,13],"layer":"m@466173768"}])

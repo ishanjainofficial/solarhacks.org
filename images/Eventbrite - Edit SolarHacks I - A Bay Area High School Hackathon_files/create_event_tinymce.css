@@ -1,0 +1,19 @@
+.event_details_tinymce,
+.event_details_tinymce_lite {
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+
+.event_details_tinymce p,
+.event_details_tinymce_lite p {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+
+.event_details_tinymce_lite img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
