@@ -11,17 +11,17 @@ We want all participants to enjoy their day at Solar Hacks, hence, we would enco
 
 
 
-*** What: 
+### What: 
 SolarHacks is a high school hackathon in the Bay Area for students by students, and it's completely free! We will have free food, swag, goodies, and more! We will have plenty of games and icebreakers to make your experience memorable.
 
-*** Where:
+### Where:
 We will be hosting the event at 42 Silicon Valley in Fremont, CA: 6600 Dumbarton Circle, Fremont, CA 94555
 
-*** When:
+### When:
 The event is an overnight hackathon on October 12th, 2018. The full schedule is available on our website.
 
-*** Who:
+### Who:
 Anyone (as long as you're 18 or younger) can come, even if you haven't written a single line of code before! We will have plenty of opportunities for even non-coders to participate!
 
-*** Why:
+### Why:
 There are tons of free food, swag, and goodies! You can make new friends and even learn some new skills you can show off to others. And plus, it's a free event! Bring along your friends to this wonderful free event.
