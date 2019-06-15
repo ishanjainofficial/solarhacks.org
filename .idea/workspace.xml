@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df53c11d-3ee9-4882-8856-4c42db3acbe4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sponsor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/team.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/resources/team.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="398">
-              <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+              <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -46,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="390">
               <caret line="26" column="60" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="60" />
             </state>
           </provider>
@@ -114,7 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,6 +129,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,14 +209,16 @@
       <workItem from="1560491569042" duration="111000" />
       <workItem from="1560491816846" duration="163000" />
       <workItem from="1560492211631" duration="231000" />
+      <workItem from="1560566470543" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14427000" />
+    <option name="totallyTimeSpent" value="14464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1400" height="771" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -309,7 +310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="390">
           <caret line="26" column="60" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="60" />
         </state>
       </provider>
@@ -317,7 +318,7 @@
     <entry file="file://$PROJECT_DIR$/resources/team.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
-          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
         </state>
       </provider>
     </entry>
