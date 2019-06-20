@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df53c11d-3ee9-4882-8856-4c42db3acbe4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/akash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/bananium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/bananium_transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/ike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/puppy1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/puppy2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/puppy3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/rotary_club.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/subway.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/tech-large.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsors/tech.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/prizes.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/prizes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sponsor.html" afterDir="false" />
     </list>
@@ -66,17 +49,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state>
+              <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/prizes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+            <state relative-caret-position="448">
+              <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -90,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="198">
+              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -153,8 +136,8 @@
         <option value="$PROJECT_DIR$/resources/nav.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/resources/prizes.html" />
         <option value="$PROJECT_DIR$/resources/sponsor.html" />
+        <option value="$PROJECT_DIR$/resources/prizes.html" />
       </list>
     </option>
   </component>
@@ -278,12 +261,12 @@
       <workItem from="1561056974007" duration="724000" />
       <workItem from="1561057983452" duration="13000" />
       <workItem from="1561058621821" duration="1245000" />
-      <workItem from="1561067058186" duration="1757000" />
+      <workItem from="1561067058186" duration="2234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19465000" />
+    <option name="totallyTimeSpent" value="19942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1400" height="771" extended-state="0" />
@@ -405,13 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/schedule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/faq.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1305">
@@ -419,17 +395,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/prizes.html">
+    <entry file="file://$PROJECT_DIR$/resources/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="198">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/prizes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
         </state>
       </provider>
     </entry>
