@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df53c11d-3ee9-4882-8856-4c42db3acbe4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/img/sponsors/Trayce.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/prizes.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/prizes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sponsor.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/prizes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+            <state relative-caret-position="308">
+              <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -261,16 +261,15 @@
       <workItem from="1561056974007" duration="724000" />
       <workItem from="1561057983452" duration="13000" />
       <workItem from="1561058621821" duration="1245000" />
-      <workItem from="1561067058186" duration="2234000" />
+      <workItem from="1561067058186" duration="2919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19942000" />
+    <option name="totallyTimeSpent" value="20627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1400" height="771" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -411,8 +410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/prizes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+        <state relative-caret-position="308">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
         </state>
       </provider>
     </entry>
