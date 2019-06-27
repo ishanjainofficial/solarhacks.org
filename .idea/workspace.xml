@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="df53c11d-3ee9-4882-8856-4c42db3acbe4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sponsor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sponsors/balsamiq.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sponsors/balsamiq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sponsors/desmos.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sponsors/desmos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sponsors/hackclub.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sponsors/hackclub.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sponsors/hackerearth.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sponsors/hackerearth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sponsors/shawee.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sponsors/shawee.jpeg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -94,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+            <state relative-caret-position="350">
+              <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -294,16 +298,15 @@
       <workItem from="1561482225692" duration="2479000" />
       <workItem from="1561498411850" duration="90000" />
       <workItem from="1561498749415" duration="55000" />
-      <workItem from="1561606000421" duration="378000" />
+      <workItem from="1561606000421" duration="709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30179000" />
+    <option name="totallyTimeSpent" value="30510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="29" width="1400" height="771" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -451,8 +454,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+        <state relative-caret-position="350">
+          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
         </state>
       </provider>
     </entry>
