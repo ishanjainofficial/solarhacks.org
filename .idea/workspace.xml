@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df53c11d-3ee9-4882-8856-4c42db3acbe4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/mentor.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mentor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/member.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/member.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,22 +28,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
+            <state relative-caret-position="1065">
               <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/member.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="467">
+              <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/mentor.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -93,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="735">
               <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
             </state>
           </provider>
@@ -152,11 +153,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/resources/schedule.html" />
-        <option value="$PROJECT_DIR$/resources/member.html" />
         <option value="$PROJECT_DIR$/resources/team.html" />
         <option value="$PROJECT_DIR$/resources/prizes.html" />
         <option value="$PROJECT_DIR$/resources/sponsor.html" />
         <option value="$PROJECT_DIR$/resources/mentor.html" />
+        <option value="$PROJECT_DIR$/resources/member.html" />
       </list>
     </option>
   </component>
@@ -295,14 +296,16 @@
       <workItem from="1561498749415" duration="55000" />
       <workItem from="1561606000421" duration="709000" />
       <workItem from="1561616678872" duration="37000" />
+      <workItem from="1561682470909" duration="331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30547000" />
+    <option name="totallyTimeSpent" value="30878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="29" width="1400" height="771" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -389,17 +392,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/resources/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/member.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="1065">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
@@ -436,15 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="735">
           <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
@@ -452,6 +441,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
         </state>
       </provider>
     </entry>
