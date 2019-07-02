@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df53c11d-3ee9-4882-8856-4c42db3acbe4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/member.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/prizes.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/prizes.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/member.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -63,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/prizes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+            <state relative-caret-position="146">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -140,7 +140,6 @@
         <option value="$PROJECT_DIR$/mentor.html" />
         <option value="$PROJECT_DIR$/resources/faq.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/resources/prizes.html" />
         <option value="$PROJECT_DIR$/resources/schedule.html" />
         <option value="$PROJECT_DIR$/resources/team.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
@@ -150,6 +149,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/sponsor.html" />
         <option value="$PROJECT_DIR$/resources/member.html" />
+        <option value="$PROJECT_DIR$/resources/prizes.html" />
       </list>
     </option>
   </component>
@@ -296,12 +296,12 @@
       <workItem from="1561869119629" duration="234000" />
       <workItem from="1561922249219" duration="168000" />
       <workItem from="1562025670085" duration="1078000" />
-      <workItem from="1562090401259" duration="1425000" />
+      <workItem from="1562090401259" duration="1576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37641000" />
+    <option name="totallyTimeSpent" value="37792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="29" width="1400" height="771" extended-state="0" />
@@ -408,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/mentor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -439,13 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/prizes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -464,6 +450,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/prizes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
