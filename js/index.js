@@ -13,7 +13,7 @@ $(document).ready(function () {
     }
 
     if (document.getElementById("member") !== null && document.getElementById("member") !== undefined) {
-        $('#member').load("resources/member.html");
+        $('#member').load("resources/speakers.html");
     }
 
     if (document.getElementById("team") !== null && document.getElementById("team") !== undefined) {
