@@ -18,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
+            <state relative-caret-position="4995">
               <caret line="333" column="143" selection-start-line="333" selection-start-column="143" selection-end-line="333" selection-end-column="143" />
             </state>
           </provider>
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="219" column="18" selection-start-line="219" selection-start-column="18" selection-end-line="219" selection-end-column="18" />
+            <state relative-caret-position="246">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -122,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +138,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,11 +273,12 @@
       <workItem from="1562806499041" duration="1093000" />
       <workItem from="1562823622992" duration="40000" />
       <workItem from="1562823981532" duration="4429000" />
+      <workItem from="1562888794270" duration="96000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56517000" />
+    <option name="totallyTimeSpent" value="56613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="29" width="1400" height="771" extended-state="0" />
@@ -416,13 +417,6 @@
     <entry file="file://$PROJECT_DIR$/site.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -432,15 +426,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="4995">
           <caret line="333" column="143" selection-start-line="333" selection-start-column="143" selection-end-line="333" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="219" column="18" selection-start-line="219" selection-start-column="18" selection-end-line="219" selection-end-column="18" />
+        <state relative-caret-position="246">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
