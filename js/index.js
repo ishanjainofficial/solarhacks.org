@@ -1,46 +1,83 @@
+var map;
+function initMap() {
+  map = new google.maps.Map(document.querySelector('.info__map'), {
+    center: { lat: 37.428801, lng: -121.836785 },
 
-if (typeof ($) === undefined || typeof ($) === null) {
-    alert("Core site resources failed to load. Please make sure your browser" +
-        " is JavaScript compatible!");
+    zoom: 8
+  });
+  const marker = new google.maps.Marker({
+    position: { lat: 37.428801, lng: -121.836785 },
+    map: map
+  });
 }
-$(document).ready(function () {
-    // Custom jQuery
 
-    // Load page resources
-    if (document.getElementById("nav") !== null && document.getElementById("nav") !== undefined) {
-        $('#nav').load("resources/nav.html");
-    }
+if (typeof $ === undefined || typeof $ === null) {
+  alert(
+    'Core site resources failed to load. Please make sure your browser' +
+      ' is JavaScript compatible!'
+  );
+}
+$(document).ready(function() {
+  // Custom jQuery
 
-    if (document.getElementById("member") !== null && document.getElementById("member") !== undefined) {
-        $('#member').load("resources/speakers.html");
-    }
+  // Load page resources
+  if (
+    document.getElementById('nav') !== null &&
+    document.getElementById('nav') !== undefined
+  ) {
+    $('#nav').load('resources/nav.html');
+  }
 
-    if (document.getElementById("team") !== null && document.getElementById("team") !== undefined) {
-        $('#team').load("resources/team.html");
-    }
+  if (
+    document.getElementById('member') !== null &&
+    document.getElementById('member') !== undefined
+  ) {
+    $('#member').load('resources/speakers.html');
+  }
 
-    if (document.getElementById("sponsor") !== null && document.getElementById("sponsor") !== undefined) {
-        $('#sponsor').load("resources/sponsor.html");
-    }
+  if (
+    document.getElementById('team') !== null &&
+    document.getElementById('team') !== undefined
+  ) {
+    $('#team').load('resources/team.html');
+  }
 
-    if (document.getElementById("faq") !== null && document.getElementById("faq") !== undefined) {
-        $('#faq').load("resources/faq.html");
-    }
+  if (
+    document.getElementById('sponsor') !== null &&
+    document.getElementById('sponsor') !== undefined
+  ) {
+    $('#sponsor').load('resources/sponsor.html');
+  }
 
-    if (document.getElementById("schedule") !== null && document.getElementById("schedule") !== undefined) {
-        $('#schedule').load("resources/schedule.html");
-    }
+  if (
+    document.getElementById('faq') !== null &&
+    document.getElementById('faq') !== undefined
+  ) {
+    $('#faq').load('resources/faq.html');
+  }
 
-    if (document.getElementById("prizes") !== null && document.getElementById("prizes") !== undefined) {
-        $('#prizes').load("resources/prizes.html");
-    }
+  if (
+    document.getElementById('schedule') !== null &&
+    document.getElementById('schedule') !== undefined
+  ) {
+    $('#schedule').load('resources/schedule.html');
+  }
 
-    if (document.getElementById("mentorWrapper") !== null && document.getElementById("mentorWrapper") !== undefined) {
-        $('#mentorWrapper').load("resources/mentor.html");
-    }
+  if (
+    document.getElementById('prizes') !== null &&
+    document.getElementById('prizes') !== undefined
+  ) {
+    $('#prizes').load('resources/prizes.html');
+  }
 
+  if (
+    document.getElementById('mentorWrapper') !== null &&
+    document.getElementById('mentorWrapper') !== undefined
+  ) {
+    $('#mentorWrapper').load('resources/mentor.html');
+  }
 
-    /*document.getElementById("hackerSignup").addEventListener('click', function (event) {
+  /*document.getElementById("hackerSignup").addEventListener('click', function (event) {
         let offset = 420;
         let offsetMillis = offset * 60 * 1000;
         let today = new Date();
@@ -69,8 +106,8 @@ $(document).ready(function () {
         }
     });*/
 
-    // Detect browser to load the correct svg
-    /*var bannerFile = '../img/.svg'; //default (Chrome/Opera)
+  // Detect browser to load the correct svg
+  /*var bannerFile = '../img/.svg'; //default (Chrome/Opera)
     if (typeof InstallTrigger !== 'undefined')  { //Firefox
         console.log('Using Firefox');
         bannerFile = '../img/.svg';
@@ -98,59 +135,65 @@ $(document).ready(function () {
             });
         }, 1000);*/
 
+  // Animate navbar when scrolled
+  $(window).scroll(function() {
+    // Change int to configure how many pixels must be scrolled before navbar
+    // appears
+    if ($(this).scrollTop() > 100) {
+      $('.navbar').fadeIn();
+    } else {
+      $('.navbar').fadeOut();
+    }
+  });
 
-    // Animate navbar when scrolled
-    $(window).scroll(function () {
-        // Change int to configure how many pixels must be scrolled before navbar
-        // appears
-        if ($(this).scrollTop() > 100) {
-            $('.navbar').fadeIn();
-        } else {
-            $('.navbar').fadeOut();
-        }
-    });
+  // User Tracking
+  $('#downloadSP').click(function() {
+    // Internal metrics recording
+    console.log('Sponsor Packet Download Initialized!');
+  });
+  // --- Reserved END Custom jQuery---
 
-    // User Tracking
-    $('#downloadSP').click(function() {
-        // Internal metrics recording
-        console.log('Sponsor Packet Download Initialized!');
-
-    });
-    // --- Reserved END Custom jQuery---
-
-    console.log('init');
-    // Select all links with hashes
-    $('a[href*="#"]')
+  console.log('init');
+  // Select all links with hashes
+  $('a[href*="#"]')
     // Remove links that don't actually link to anything
-        .not('[href="#"]')
-        .not('[href="#0"]')
-        .click(function (event) {
-            // On-page links
-            if (
-                location.pathname.replace(/^\//, '') ==
-                this.pathname.replace(/^\//, '') && location.hostname === this.hostname
-            ) {
-                // Figure out element to scroll to
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                // Does a scroll target exist?
-                if (target.length) {
-                    // Only prevent default if animation is actually gonna happen
-                    event.preventDefault();
-                    $('html, body').animate({
-                        scrollTop: (target.offset().top - $('nav').outerHeight())
-                    }, 1000, function () {
-                        // Callback after animation
-                        // Must change focus!
-                        target.focus();
-                        if (target.is(":focus")) { // Checking if the target was focused
-                            return false;
-                        } else {
-                            target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-                            target.focus(); // Set focus again
-                        };
-                    });
-                }
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function(event) {
+      // On-page links
+      if (
+        location.pathname.replace(/^\//, '') ==
+          this.pathname.replace(/^\//, '') &&
+        location.hostname === this.hostname
+      ) {
+        // Figure out element to scroll to
+        var target = $(this.hash);
+        target = target.length
+          ? target
+          : $('[name=' + this.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+          // Only prevent default if animation is actually gonna happen
+          event.preventDefault();
+          $('html, body').animate(
+            {
+              scrollTop: target.offset().top - $('nav').outerHeight()
+            },
+            1000,
+            function() {
+              // Callback after animation
+              // Must change focus!
+              target.focus();
+              if (target.is(':focus')) {
+                // Checking if the target was focused
+                return false;
+              } else {
+                target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                target.focus(); // Set focus again
+              }
             }
-        });
+          );
+        }
+      }
+    });
 });
