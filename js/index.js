@@ -1,5 +1,4 @@
-// Adopted from https://bananiumlabs.com
-// Created for https://launchhacks.tech
+
 if (typeof ($) === undefined || typeof ($) === null) {
     alert("Core site resources failed to load. Please make sure your browser" +
         " is JavaScript compatible!");
