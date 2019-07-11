@@ -21,9 +21,7 @@
   "dependencies": {
     "jquery": "^3.3.1",
     "vivus": "^0.4.4",
-    "webpack": "^4.29.0",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-cli": "^3.2.1"
   },
   "devDependencies": {
     "npm-check": "^5.9.0"
