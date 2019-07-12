@@ -15,19 +15,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1055">
-              <caret line="163" selection-start-line="163" selection-end-line="163" />
+            <state relative-caret-position="408">
+              <caret line="236" column="14" selection-start-line="236" selection-start-column="14" selection-end-line="236" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1746">
+            <state relative-caret-position="602">
               <caret line="172" column="23" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="23" />
             </state>
           </provider>
@@ -122,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +138,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,11 +278,12 @@
       <workItem from="1562889472882" duration="16000" />
       <workItem from="1562889736829" duration="142000" />
       <workItem from="1562889956186" duration="20000" />
+      <workItem from="1562895470389" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56845000" />
+    <option name="totallyTimeSpent" value="56864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="29" width="1400" height="771" extended-state="0" />
@@ -428,13 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1055">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -444,8 +438,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1746">
+        <state relative-caret-position="602">
           <caret line="172" column="23" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="236" column="14" selection-start-line="236" selection-start-column="14" selection-end-line="236" selection-end-column="14" />
         </state>
       </provider>
     </entry>
