@@ -51,9 +51,8 @@ footer {
 }
 
 .secondary {
-  background: rgb(255, 255, 255);
+  background: rgb(255, 252, 255);
 }
-
 .right-align {
   float: right;
   text-align: right;
@@ -266,7 +265,7 @@ h4 {
 }
 
 .banner-text-secondary {
-  color: #ff58f8;
+  color: #efda54;
 }
 
 @keyframes fadein {
@@ -353,7 +352,7 @@ h4 {
  * * FAQ *
  * ******* */
 .card-header {
-  background-color: white;
+  background-color: #6f80fa;
   border-bottom: none;
   font-size: 2.5vh;
   -webkit-transition-duration: 0.4s;
@@ -371,7 +370,7 @@ h4 {
 
 .card-header:hover {
   font-size: 2.7vh;
-  color: #b12810;
+  color: #f6f6fa;
 }
 
 /* ************
@@ -386,9 +385,6 @@ h4 {
   max-height: 12vh;
   align-self: center;
   transition-duration: 1s;
-}
-
-.digital-ocean {
 }
 
 .restrict-sponsor-img {
@@ -501,7 +497,7 @@ header.head {
   width: 100%;
   height: 100%;
   margin-top: 50px;
-  background: #ffffff;
+  background: #7bbeff;
 }
 
 header.head .header-content {
@@ -561,7 +557,7 @@ nav img {
 
 /*Trayce*/
 .btn-gudbutton {
-  background: #ff8c0b;
+  background: #efda54;
   border: 2px solid #ff6864;
   font-size: 15px;
   font-weight: bold;
