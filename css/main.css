@@ -352,7 +352,7 @@ h4 {
  * * FAQ *
  * ******* */
 .card-header {
-  background-color: #6f80fa;
+  background-color: #efda54;
   border-bottom: none;
   font-size: 2.5vh;
   -webkit-transition-duration: 0.4s;
@@ -371,6 +371,7 @@ h4 {
 .card-header:hover {
   font-size: 2.7vh;
   color: #f6f6fa;
+  background-color: #0c5460;
 }
 
 /* ************
