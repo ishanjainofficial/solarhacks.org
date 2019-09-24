@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="59" column="132" selection-start-line="59" selection-start-column="132" selection-end-line="59" selection-end-column="132" />
+            <state relative-caret-position="321">
+              <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -140,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,7 +157,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,11 +371,12 @@
       <workItem from="1569280996142" duration="60000" />
       <workItem from="1569291168276" duration="137000" />
       <workItem from="1569291714232" duration="69000" />
+      <workItem from="1569298282659" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81695000" />
+    <option name="totallyTimeSpent" value="81719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1422" height="777" extended-state="0" />
@@ -551,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="59" column="132" selection-start-line="59" selection-start-column="132" selection-end-line="59" selection-end-column="132" />
+        <state relative-caret-position="321">
+          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
         </state>
       </provider>
     </entry>
