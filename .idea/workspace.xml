@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df53c11d-3ee9-4882-8856-4c42db3acbe4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/schedule.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sponsor.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="283">
@@ -44,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="137" column="61" selection-start-line="137" selection-start-column="61" selection-end-line="137" selection-end-column="61" />
+            <state relative-caret-position="150">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -125,8 +123,8 @@
         <option value="$PROJECT_DIR$/resources/faq.html" />
         <option value="$PROJECT_DIR$/resources/prizes.html" />
         <option value="$PROJECT_DIR$/resources/team.html" />
-        <option value="$PROJECT_DIR$/resources/sponsor.html" />
         <option value="$PROJECT_DIR$/resources/schedule.html" />
+        <option value="$PROJECT_DIR$/resources/sponsor.html" />
       </list>
     </option>
   </component>
@@ -381,11 +379,12 @@
       <workItem from="1569896248394" duration="31000" />
       <workItem from="1569979145284" duration="139000" />
       <workItem from="1569979323615" duration="184000" />
+      <workItem from="1569981929351" duration="54000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83588000" />
+    <option name="totallyTimeSpent" value="83642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1422" height="777" extended-state="0" />
@@ -545,6 +544,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/prizes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -554,15 +560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sponsor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="137" column="61" selection-start-line="137" selection-start-column="61" selection-end-line="137" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/schedule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        <state relative-caret-position="150">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
         </state>
       </provider>
     </entry>
