@@ -36,6 +36,13 @@ $(document).ready(function() {
   }
 
   if (
+      document.getElementById('recap') !== null &&
+      document.getElementById('recap') !== undefined
+  ) {
+    $('#recap').load('resources/recap.html');
+  }
+
+  if (
     document.getElementById('team') !== null &&
     document.getElementById('team') !== undefined
   ) {
@@ -70,12 +77,6 @@ $(document).ready(function() {
     $('#prizes').load('resources/prizes.html');
   }
 
-  if (
-    document.getElementById('mentorWrapper') !== null &&
-    document.getElementById('mentorWrapper') !== undefined
-  ) {
-    $('#mentorWrapper').load('resources/mentor.html');
-  }
 
   /*document.getElementById("hackerSignup").addEventListener('click', function (event) {
         let offset = 420;
@@ -196,4 +197,5 @@ $(document).ready(function() {
         }
       }
     });
+
 });

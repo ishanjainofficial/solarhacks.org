@@ -1,0 +1,110 @@
+<div class="">
+    <div>
+        <h2 class="text-center faq-title">Thanks for a Successful Event!</h2>
+        <h3 class="text-center faq-title">300+ Hackers and More than $50k in prizes!</h3>
+        <h4 class="text-center faq-title">Thanks for being part of one of the largest high school hackathons in the Bay Area!</h4>
+
+    </div>
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="img.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="img.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="img.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="img.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="img.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="img.jpg" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="img" style="width:100%" onclick="currentSlide(1)" alt="SolarHacks Team">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img" style="width:100%" onclick="currentSlide(2)" alt="Ishan fhsjf">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor" src="img.jpg" style="width:100%" onclick="currentSlide(1)" alt="Participants">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img.jpg" style="width:100%" onclick="currentSlide(2)" alt="Hello">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor" src="img.jpg" style="width:100%" onclick="currentSlide(1)" alt="h">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img.jpg" style="width:100%" onclick="currentSlide(2)" alt="fsdjl">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+</script>
