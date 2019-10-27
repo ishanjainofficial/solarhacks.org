@@ -669,12 +669,3 @@ nav img {
   transform: translateY(-0.2rem);
   color: rgb(247, 252, 255);
 }
-
-.footer-logo-box {
-  text-align: center;
-  margin-bottom: 4rem;
-}
-
-.footer-logo {
-  width: 3rem;
-}
