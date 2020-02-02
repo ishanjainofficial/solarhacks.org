@@ -1,0 +1,592 @@
+html
+{
+	scroll-behavior: smooth;
+	-webkit-scroll-behavior: smooth;
+}
+
+body
+{
+	padding: 0;
+	margin: 0;
+}
+#wrapper
+{
+}
+a
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+/* ---------------------------------------------------------------- SCROLL BAR */
+/*
+body::-webkit-scrollbar
+{
+	width: 15px;
+}
+body::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 2px 2px var(--lightbackground);
+}
+body::-webkit-scrollbar-thumb
+{
+	color: var(--lightbackground);
+	box-shadow: inset 0 0 0 10000px;
+	border: 4px solid transparent;
+	border-radius: 10000px;
+
+}
+body::-webkit-scrollbar-thumb:hover
+{
+	color: var(--elightbackground);
+}
+body::-webkit-scrollbar-corner
+{
+	background: var(--background);
+	color: var(--background);
+}
+*/
+
+
+/* ---------------------------------------------------------------- FRONT PAGE */
+#frontPage
+{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+
+	background-image: url("logo_img.png"), url("background_1.jpg");
+	background-attachment: scroll, fixed;
+	background-size: 150px 150px, cover;
+	background-position: 50% 10%, center;
+	background-repeat: no-repeat, no-repeat;
+
+	color: white;
+	align-content: center;
+
+	font-family: Gilroy, sans-serif;
+}
+#frontPageInformation
+{
+	width: 100%;
+	height: 100%;
+	background: hsla(300, 14%, 43%, 0.4);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#frontPageTitle
+{
+	font-size: 7em;
+	font-weight: 700;
+	color: #d000d0 /*#5a2dc4*/;
+	text-shadow: 2px 2px 0px #ffddff, -2px -2px 0px #ffddff,
+		-2px 2px 0px #ffddff, 2px -2px 0px #ffddff;
+	padding: 0;
+	margin: 0;
+}
+.frontPageSubtitle
+{
+	font-size: 2em;
+	color: #f0b0ff;
+	text-shadow: 1px 1px 0px #5a2dc4, -1px -1px 0px #5a2dc4,
+		-1px 1px 0px #5a2dc4, 1px -1px 0px #5a2dc4;
+	padding: 0;
+	margin: 0;
+}
+#frontPageButton
+{
+	margin-top: 0.5em;
+	padding: 0;
+	font-size: 2.5em;
+	font-weight: 700;
+	text-align: center;
+
+	background: #3b009f;
+	border-radius: 10000px;
+	color: white;
+	border: 10px solid #3b009f;
+
+	position: relative;
+	width: 6.5em;
+	height: 2.5em;
+	transition: 0.5s;
+	cursor: pointer;
+}
+#frontPageButton:hover
+{
+	height: 2.08333333333em;
+	width: 5.41666666667em;
+	margin-top: 0.41666666666em;
+	font-size: 3em;
+	color: #3b009f;
+	background: #f0b0ff;
+}
+#frontPageInformation a
+{
+	position: absolute;
+	bottom: 0;
+	font-size: 3em;
+	transition: all 0.3s ease-in-out;
+	color: #ffffff80;
+}
+#frontPageInformation a:hover
+{
+	bottom: -0.10526315789em;
+	font-size: 3.8em;
+	color: #ffffffb0;
+}
+
+/* ---------------------------------------------------------------- HEADER */
+
+#headerBar
+{
+	display: block;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	overflow: visible;
+
+	height: 50px;
+	z-index: 1;
+	width: 100%;
+	/*
+	background: #5a2dc4;
+	color: #f0b0ff;
+	*/
+	background: black;
+	color: #f0b0ff;
+
+	font-family: Gilroy, sans-serif;
+	font-size: 18px;
+}
+
+.headerBarLeft
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	height: 100%;
+	float: left;
+	font-weight: 500;
+	cursor: pointer;
+}
+.headerBarLeft img
+{
+	height: 100%;
+	width: auto;
+}
+.headerBarLeft:hover
+{
+	font-weight: 700;
+}
+
+.headerBarElement
+{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+	font-weight: 500;
+	font-size: 1em;
+	position: relative;
+	float: right;
+	padding: 0 1em;
+
+	align-content: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.headerBarElement:before, .headerBarElement:after
+{
+	display: flex;
+
+	content: attr(disp);
+	height: 0;
+	overflow: hidden;
+}
+.headerBarElement:before {font-weight: 500;}
+.headerBarElement:after {font-weight: 700;}
+.headerBarElement:hover {font-weight: 700;}
+
+/* ---------------------------------------------------------------- GENERAL */
+#information
+{
+	position: relative;
+	width: 100%;
+	--color1: hsla(0, 0%, 95%);
+	background: linear-gradient(204deg,
+		#00000000 600px, var(--color1) 600px, var(--color1) 650px, #00000000 650px,
+		#00000000 700px, var(--color1) 700px, var(--color1) 750px, #00000000 750px),
+			linear-gradient(172deg,
+		#00000000 600px, var(--color1) 600px, var(--color1) 650px, #00000000 650px,
+		#00000000 700px, var(--color1) 700px, var(--color1) 750px, #00000000 750px);
+}
+.separator
+{
+	display: block;
+	position: relative;
+	width: 80%;
+	left: 10%;
+}
+.separator hr
+{
+	height: 0.2em;
+	margin: auto;
+
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: none;
+	border-right: none;
+
+	overflow: visible;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	font-weight: 200;
+}
+.separator hr:before
+{
+	content: "BACK TO TOP";
+	position: relative;
+	top: -0.5em;
+	font-size: 1em;
+	background: white;
+	padding: 0 1em;
+}
+.infoSection
+{
+	position: relative;
+	padding: 5%;
+}
+.infoHeader
+{
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0;
+	border-radius: 10000px;
+
+	font-family: Montserrat, sans-serif;
+	font-size: 6em;
+	font-weight: 700;
+	color: #7289da;
+}
+
+
+
+
+/* ---------------------------------------------------------------- ABOUT */
+
+#about
+{
+}
+#about div
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	margin-top: 15px;
+	background: #5a2dc4;
+	border-radius: 10px;
+	padding: 2em;
+}
+#about div p, #about div iframe
+{
+	min-width: 300px;
+	margin: 0;
+
+	flex-wrap: nowrap;
+	flex: 1 1 300px;
+
+	font-family: 'Open Sans', sans-serif;
+	color: #d6fffe;
+	font-weight: 300;
+	font-size: 1.2em;
+	text-align: justify;
+	margin: 1em;
+}
+#about div iframe
+{
+	min-height: 300px;
+	border-radius: 10px;
+}
+
+/* ---------------------------------------------------------------- FAQ */
+
+#FAQ
+{
+}
+#FAQContainer
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.FAQBox
+{
+	min-width: 300px;
+
+	padding: 1em;
+	border-radius: 5px;
+	margin: 10px;
+
+	flex: 1 1 400px;
+	text-align: left;
+	transition: background 0.5s;
+
+	color: hsla(330, 20%, 45%, 1);
+}
+.FAQBox:hover
+{
+	background: #5a2dc410;
+}
+.FAQBoxOn
+{
+	background: #5a2dc410;
+}
+.FAQBox h1
+{
+	font-size: 1.8em;
+	font-family: Montserrat, sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.FAQBox p
+{
+	/*margin-bottom: 10px;*/
+	font-family: Open Sans, sans-serif;
+	text-align: justify;
+	padding: 0 1em;
+
+	margin: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease-in-out;
+	max-height: 0px;
+}
+.FAQBox .FAQBoxOnP
+{
+	max-height: 13em;
+}
+
+/* ---------------------------------------------------------------- Sponsors */
+#Sponsor
+{
+}
+#Sponsor h2
+{
+	font-family: Montserrat, sans-serif;
+	font-weight: 900;
+	font-size: 3em;
+	color: #32499a;
+}
+
+
+/* ---------------------------------------------------------------- Schedule */
+
+#Sched
+{
+	color: #562675;
+}
+#Sched h2
+{
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	padding: 1.5em 0 0 0;
+	margin: 0;
+}
+#Sched ul
+{
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+
+	width: 80vw;
+	min-width: 500px;
+	max-width: 800px;
+
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+	display: flex;
+	flex-direction: column;
+}
+#Sched ul li
+{
+	display: block;
+	position: relative;
+	width: 100%;
+	transition: background 0.1s;
+}
+#Sched ul li:before
+{
+	content: "";
+	position: absolute;
+	height: 1px;
+	bottom: 0;
+	width: 90%;
+	left: 5%;
+	background: #562675;
+}
+#Sched ul li:hover
+{
+	background: #F6F2FF;
+}
+#Sched ul li div
+{
+	padding: 0.5em 0.5em 0 0.5em;
+	display: inline-block;
+	position: relative;
+}
+#Sched ul li div:nth-child(1){float: left;}
+#Sched ul li div:nth-child(2){float: right;}
+
+/* ---------------------------------------------------------------- Awards */
+
+#Award
+{
+}
+#Award h2
+{
+	font-family: Montserrat, sans-serif;
+	font-weight: 900;
+	font-size: 3em;
+	color: #32499a;
+}
+
+/* ---------------------------------------------------------------- Our Team */
+
+#Team
+{
+}
+#TeamContent
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0;
+}
+.TeamMember
+{
+	display: block;
+	min-width: 300px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	flex: 1 1 400px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.TeamMemberWrap
+{
+	width: 250px;
+	color: #7289da;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	padding: 3em 1em 2em 1em;
+	border-radius: 150px 150px 20px 20px;
+
+	transition: background 0.7s;
+}
+.TeamMemberWrap img
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	border: 3px solid;
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-family: Montserrat, sans-serif;
+}
+.TeamMemberWrap h1
+{
+	margin: 10px 0px 0px 0px;
+	padding: 0;
+	font-family: Montserrat, sans-serif;
+	font-weight: 900;
+}
+.TeamMemberWrap p
+{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat, sans-serif;
+	font-size: 1em;
+	font-weight: 200;
+}
+.TeamMemberWrap div
+{
+	margin: none;
+	padding: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.TeamMemberWrap div i
+{
+	font-size: 2em;
+	color: #7289da30;
+	margin: 0;
+	padding: 0.2em 0.4em;
+}
+.TeamMemberWrap div a i
+{
+	cursor: pointer;
+	color: #7289da;
+	transition: all 0.3s;
+}
+.TeamMemberWrap div a i:hover
+{
+	color: #5269ba;
+	font-size: 2.5em;
+	padding: 0.06em 0.22em;
+}
+
+/* ---------------------------------------------------------------- Rules */
+
+
+/* ---------------------------------------------------------------- Other */
+
+#linkToSH1
+{
+	text-align: center;
+	margin: 3em 1em;
+}
+#linkToSH1 input
+{
+	background: hsl(60, 70%, 70%);
+	color: hsl(330, 70%, 30%);
+		font-family: Gilroy, sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+	cursor: pointer;
+
+	border: none;
+	border-radius: 10px;
+	height: 2em;
+	padding: 0em 1em;
+
+	transition: all 0.2s;
+}
+#linkToSH1 input:hover
+{
+	box-shadow: inset 0px 0px 20px 10px hsla(0, 0%, 0%, 20%);
+}

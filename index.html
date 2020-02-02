@@ -1,299 +1,332 @@
 <!DOCTYPE html>
+
 <html>
+<head>
+	<meta charset="utf-8">
+	<title>SolarHacks II</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css"><!-- Gilroy -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700,900|Open+Sans:300,400,700&display=swap" rel="stylesheet"> <!-- Montserrat and Open Sans -->
 
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <title>SolarHacks I - Bay Area High School Hackathon</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Welcome to the one of the largest high school hackathons! SolarHacks I"/>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css"> <!-- Icons -->
 
-    <meta name="google-site-verification" content="G6HTcLzunddB9vxygctJt6JPtJlZl74PwoTEeUgc8Io"/>
+	<link rel="icon" href="logo_img.png">
+</head>
 
-    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet"/>
+<body>
+	<div id="frontPage">
+		<div id="frontPageInformation">
+			<h1 id="frontPageTitle">SolarHacks II</h1>
+			<h2 class="frontPageSubtitle">Make School</h2>
+			<h2 class="frontPageSubtitle">April 4-5, 2020</h2>
+			<form action="signup.html" target="_blank" method="post">
+				<input type="submit" id="frontPageButton" value="Sign Up!" />
+			</form>
+			<!-- put actual link here -->
+			<a href="#about"><i class="fas fa-angle-double-down"></i></a>
+		</div>
+	</div>
 
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"/>
+	<nav id="headerBar">
+		<a class="headerBarLeft" href="#">
+			<img src="logo_img.png" alt="Logo">
+			SolarHacks II
+		</a>
+		<a class="headerBarElement" href="#Team" disp="Team">Team</a>
+		<a class="headerBarElement" href="#Award" disp="Awards">Awards</a>
+		<a class="headerBarElement" href="#Sched" disp="Schedule">Schedule</a>
+		<a class="headerBarElement" href="#Sponsor" disp="Sponsors">Sponsors</a>
+		<a class="headerBarElement" href="#FAQ" disp="FAQ">FAQ</a>
+		<a class="headerBarElement" href="#about" disp="About">About</a>
+	</nav>
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous"/>
+	<div id="information">
 
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" crossorigin="anonymous"></script>
+		<div id="about" class="infoSection" align="center">
+			<h1 class="infoHeader">About</h1>
 
-    <link href="css/main.css" rel="stylesheet"/>
+			<div>
+				<p>SolarHacks II is an overnight, 200-participant Hackathon, organized to promote STEM in the bright minds of our rising generation. We are affiliated with Mission San Jose High School’s app development club. Our goal is to bring middle and high school students in the Bay Area together to develop innovative ideas that could revolutionize the world. At SolarHacks II, we provide students with the resources and mentorship that would be needed to convert their ideas into a reality. Additionally, by the end of the Hackathon, students will be able to learn how to collaborate with their peers to build STEM projects, gain presentation skills, and be inspired to continue doing things they love! Food, workshops, assistance, drinks, and swag will be provided to all participants for free! We want all participants to enjoy their day at SolarHacks II, hence, we would encourage everybody to arrive at the Hackathon with a competitive mindset.</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.092357585055!2d-122.41314148468786!3d37.78787527975712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807f8bd4d441%3A0xd4618e6f27febe26!2sMake%20School!5e0!3m2!1sen!2sus!4v1580191240283!5m2!1sen!2sus" frameborder="0" allowfullscreen=""></iframe>
+			</div>
+		</div>
 
-    <link rel="icon" type="image/png" href="img/logo.png"/>
-  </head>
+		<a href="#" class="separator"><hr></a>
 
-  <body>
-    <nav
-      class="navbar fixed-top navbar-expand-lg navbar-light bg-light"
-      style="display:none;">
-      <a class="navbar-brand" href="#banner">
-        <img src="./img/logo.png" />SolarHacks I</a>
+		<div id="FAQ" class="infoSection" align="center">
+			<h1 class="infoHeader">FAQ</h1>
+			<div id="FAQContainer">
+				<div class="FAQBox">
+					<h1 onclick="FAQDrop(this);">Who can attend?</h1>
+					<p>SolarHacks is open to all middle and high school students (7th to 12th grade). No experience is necessary, and we would love to see new participants! However, if you have already graduated from high school, you can still attend as a mentor!</p>
+				</div>
+				<div class="FAQBox">
+					<h1 onclick="FAQDrop(this);">Do I have to pay for anything?</h1>
+					<p>Attending SolarHacks is and will always be free! Leave your money at home, as we won't be selling you anything! We will provide you with breakfast, lunch, dinner, and a bunch of snacks, all for free!</p>
+				</div>
+				<div class="FAQBox">
+					<h1 onclick="FAQDrop(this);">What can I get from coming?</h1>
+					<p>In addition to a fun and unique experience to improve your maker skills with your friends, we will have amazing prizes for our best submissions! And even if you don't end up winning, everyone will get free food and swag, including T-shirts, laptop stickers, and various goodies from our sponsors!</p>
+				</div>
+				<div class="FAQBox">
+					<h1 onclick="FAQDrop(this);">What should I bring?</h1>
+					<p>All you need to bring is a laptop to work on, a student ID from your school, toiletries, and any accessories you might want (headphones, chargers, cool hardware to work with, etc). We'll provide the food, swag, prizes, and mentors for free!</p>
+				</div>
+				<div class="FAQBox">
+					<h1 onclick="FAQDrop(this);">What can I make?</h1>
+					<p>Anything you want! Software projects are often the most popular type of submission, but we also welcome and encourage other types of unique submissions, like hardware (Arduinos, Raspberry Pi, etc), invention prototypes, artwork, or anything else you can think of. Even if you can't or don't want to code, there are still plenty of things you can make to wow the judges!</p>
+				</div>
+				<div class="FAQBox">
+					<h1 onclick="FAQDrop(this);">How many people can be in a team?</h1>
+					<p>Teams can be a maximum of 4 people. Solo teams are allowed, but we strongly encourage you to meet new people if you come by yourself! On the other hand, if you are a team of 2 or 3, one of the best things you can do is invite someone new to join your team - they will bring in new ideas and areas of expertise. At the beginning of the event, we will do our best to help everyone find a team.</p>
+				</div>
+				<div class="FAQBox">
+					<h1 onclick="FAQDrop(this);">How long is the event?</h1>
+					<p>SolarHacks is a one-day event, for it will last from 7:00 AM - 10:00 PM. It will be a fun and exciting day!</p>
+				</div>
+				<div class="FAQBox">
+					<h1 onclick="FAQDrop(this);">Do I have to know how to code?</h1>
+					<p>Definitely not! If you don't feel like coding, there are still so many things you can make - see 'What can I make?' for a couple ideas. If you do want to code something but don't know how yet, don't worry! We will hold workshops and provide expert mentors to help you get started.</p>
+				</div>
+				<div class="FAQBox">
+					<h1 onclick="FAQDrop(this);">How will our project be judged?</h1>
+					<p>All projects will be judged with the same criteria: originality, polish, difficulty of implementation, and viability as a product. We highly suggest that you treat your project like a product that you could potentially sell- rather than pitching just for the judges, pitch for everyone else, too!</p>
+				</div>
+				<div class="FAQBox">
+					<h1 onclick="FAQDrop(this);">I have more questions, help me!</h1>
+					<p>Please feel free to join the official SolarHacks Discord channel at: solarhacks.org/discord or feel free to email us at contact@solarhacks.org!</p>
+				</div>
+			</div>
+		</div>
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
+		<a href="#" class="separator"><hr></a>
 
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="nav justify-content-center ml-auto ">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#recap">Recap</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#faq">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#sponsor">Sponsors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#schedule">Schedule</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#prizes">Prizes</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mentor.html">Mentors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#rules">Rules</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <div
-      id="nav"
-      class="navbar fixed-top navbar-expand-lg navbar-light bg-light"
-      style="display:none;"
-    ></div>
-
-    <section id="banner">
-      <!-- <div id="bannerLogo"></div>
-        <div id="bannerLogo2"></div> -->
-      <div id="bannerLogoPlaceholder">
-        <img src="img/logo_transparent.png" />
-      </div>
-      <div id="bannerInfo">
-        <h3 class="text-center">
-          <date class="banner-text-primary">October 19</date>
-          <date class="banner-text-secondary">2019</date>
-          <br />
-          <loc class="banner-text-primary">Location: </loc>
-          <loc class="banner-text-secondary"
-            >42 Silicon Valley, Fremont, CA</loc>
-          <br />
-          <div class="row" id="link-buttons">
-            <div class="col-sm-3 mobile-width-fix">
-              <a class="black-color" href="https://github.com/" target="_blank">
-                <i class="fab fa-github github link-btn"></i>
-              </a>
-            </div>
-            <div class="col-sm-3 mobile-width-fix">
-              <a class="blue-color"
-                href="https://www.linkedin.com/company/solarhacks/about"
-                target="_blank">
-
-                <i class="fab fa-linkedin linkedin link-btn"></i>
-              </a>
-            </div>
-            <div class="col-sm-3 mobile-width-fix">
-              <a class="insta-color" href="https://www.instagram.com/aboutsolarhacks" target="_blank">
-                <i class="instagram fab fa-instagram link-btn"></i>
-              </a>
-            </div>
-            <div class="col-sm-3 mobile-width-fix">
-              <a class="fb-color" href="https://www.facebook.com/aboutsolarhacks" target="_blank">
-                <i class="fab fa-facebook facebook link-btn"></i>
-              </a>
-            </div>
-          </div>
-        </h3>
-
-        <div id="apply">
-          <div class="text-center">
-            <a class="btn btn-gudbutton" href="https://www.eventbrite.com/e/solarhacks-i-a-bay-area-high-school-hackathon-registration-60690589186" target="_blank">Register!</a>
-            <a class="btn btn-gudbutton" href="https://solarhacks.org/mentor" target="_blank">Mentor Sign Up</a>
-
-            <h5></h5>
-
-            <a class="btn btn-gudbutton nav-link" href="https://www.evensi.us/amp/solarhacks-bay-area-high-school-hackathon-42-silicon-valley/305786912">
-              Additional Resources
-            </a>
-          </div>
-        </div>
-
-        <div id="bannerButton">
-          <a href="#about">
-            <i class="fas fa-angle-double-down"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="secondary">
-      <div class="container">
-        <h2 class="mb-sm text-center">About</h2>
-        <div class="row">
-          <div class="col-xs-10 col-sm-12 col-md-12 col-lg-5 col-xl-6">
-            <p class="text-justify pr-sm">
-              Solar Hacks is a one-day, 200-participant Hackathon that is
-              independent and unaffiliated with any school. Our goal is to bring
-              middle and high school students in the Bay Area together to come
-              together and develop innovative ideas that could revolutionize the
-              world. At Solar Hacks, we provide students with the resources and
-              mentorship that would be needed to convert their ideas into a
-              reality. Additionally, by the end of the Hackathon, students will
-              be able to learn how to collaborate with their peers to build STEM
-              projects, gain presentation skills, and be inspired to continue
-              doing things they love! Food, workshops, assistance, drinks, and
-              swag will be provided to all participants for free! We want all
-              participants to enjoy their day at Solar Hacks, hence, we would
-              encourage everybody to arrive to the Hackathon with a competitive
-              mindset.
-            </p>
-          </div>
-          <div class="info__map col-xs-10 col-sm-12 col-md-12 col-lg-5"></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="recap" class="container">
-      <!-- See recap.html -->
-    </section>
-
-    <section id="faq" class="container">
-      <!-- See faq.html -->
-    </section>
-
-    <section id="sponsor" class="secondary">
-      <!-- See sponsor.html -->
-    </section>
-
-    <section id="schedule" class="container">
-      <!-- See schedule.html -->
-    </section>
-
-    <section id="prizes" class="container">
-      <!-- See prizes.html -->
-    </section>
+		<div id="Sponsor" class="infoSection" align="center">
+			<h1 class="infoHeader">Sponsors</h1>
+			<h2> TBD </h2>
+		</div>
 
 
-    <section class="secondary">
-      <div class="col-sm">
-        <h2 class="text-center">Our Team</h2>
-      </div>
-      <div id="team">
-        <!-- See team.html -->
-      </div>
-    </section>
-    <section id="rules" class="secondary">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h2 class="text-center">Rules</h2>
-            <p class="text-justify">
-              Event Code of Conduct <br />
-              All attendees, speakers, sponsors and volunteers at events hosted
-              at DigitalOcean Headquarters, or events representing DigitalOcean,
-              are required to agree with the following code of conduct.
-              Organizers and/or DigitalOcean staff will enforce this code
-              throughout the event. We are expecting cooperation from all
-              participants to help ensure a safe environment for everybody.
-              <br /><br />
+		<a href="#" class="separator"><hr></a>
 
-              The Quick Version DigitalOcean is dedicated to providing a
-              harassment-free event experience for everyone, regardless of
-              gender, gender identity and expression, age, sexual orientation,
-              disability, physical appearance, body size, race, ethnicity,
-              religion (or lack thereof), or technology choices. We do not
-              tolerate harassment of event participants in any form. Sexual
-              language and imagery is not appropriate for any event venue,
-              including talks, workshops, parties, Twitter and other online
-              media. Event participants violating these rules may be sanctioned
-              or expelled from the event without a refund at the discretion of
-              the event organizers or DigitalOcean employees. <br /><br />
+		<div id="Sched" class="infoSection" align="center">
+			<h1 class="infoHeader">Schedule</h1>
+			<h2>Saturday - April 4</h2>
+			<ul>
+				<li><div>9:00 AM</div><div>Check In</div></li>
+				<li><div>10:00 AM</div><div>Opening Ceremony</div></li>
+				<li><div>10:30 AM</div><div>Keynote Speaker</div></li>
+				<li><div>11:45 AM</div><div>Team Mixing, Hacking Begins!</div></li>
+				<li><div>12:00 PM</div><div>Lunch</div></li>
+				<li><div>1:30 PM</div><div>Workshop (TBD)</div></li>
+				<li><div>3:00 PM</div><div>Workshop (TBD)</div></li>
+				<li><div>7:30 PM</div><div>Dinner</div></li>
+				<li><div>10:30 PM</div><div>Cup Stacking</div></li>
+			</ul>
+			<h2>Sunday - April 5</h2>
+			<ul>
+				<li><div>12:00 AM</div><div>Midnight Snack</div></li>
+				<li><div>7:30 AM</div><div>Project Submissions Deadline</div></li>
+				<li><div>8:00 AM</div><div>Breakfast</div></li>
+				<li><div>8:30 AM</div><div>Judging Begins</div></li>
+				<li><div>10:00 AM</div><div>Top 10 Presentations</div></li>
+				<li><div>11:15 AM</div><div>Speaker Presentation</div></li>
+				<li><div>11:30 AM</div><div>Closing/Award Ceremony</div></li>
+				<li><div>12:30 PM</div><div>End of Hackathon</div></li>
+			</ul>
+		</div>
 
-              The Less Quick Version Harassment includes offensive verbal
-              comments related to gender, gender identity and expression, age,
-              sexual orientation, disability, physical appearance, body size,
-              race, ethnicity, religion, technology choices, sexual images in
-              public spaces, deliberate intimidation, stalking, following,
-              harassing photography or recording, sustained disruption of talks
-              or other events, inappropriate physical contact, and unwelcome
-              sexual attention.<br />
-              <br />
+		<a href="#" class="separator"><hr></a>
 
-              Participants asked to stop any harassing behavior are expected to
-              comply immediately. Sponsors are also subject to the
-              anti-harassment policy. In particular, sponsors should not use
-              sexualized images, activities, or other material. Sponsor staff
-              (including volunteers) should not use sexualised
-              clothing/uniforms/costumes, or otherwise create a sexualized
-              environment.<br /><br />
+		<div id="Award" class="infoSection" align="center">
+			<h1 class="infoHeader">Awards and Prizes</h1>
+			<h2> TBD </h2>
+		</div>
 
-              If a participant engages in harassing behavior, the event
-              organizers or DigitalOcean staff may take any action they deem
-              appropriate, including warning the offender or expulsion from the
-              event with no refund.<br /><br />
+		<a href="#" class="separator"><hr></a>
 
-              If you are being harassed, notice that someone else is being
-              harassed, or have any other concerns, please contact a member of
-              DigitalOcean or event staff immediately.<br /><br />
+		<div id="Team" class="infoSection" align="center">
+			<h1 class="infoHeader">Our Team</h1>
+			<ul id="TeamContent">
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Ishan.jpg" alt="Ishan Jain">
+						<h1>Ishan Jain</h1>
+						<p>Executive Director</p>
+						<div>
+							<a href="mailto:ishanjain42@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+							<i class="fab fa-linkedin-in"></i>
+							<a href="https://github.com/ishanjainofficial" target="_blank"><i class="fab fa-github"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Kevin.png" alt="Kevin Chu">
+						<h1>Kevin Chu</h1>
+						<p>Director of Sponsorships</p>
+						<div>
+							<i class="fas fa-envelope"></i>
+							<i class="fab fa-linkedin-in"></i>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Siyong.jpg" alt="Siyong Huang">
+						<h1>Siyong Huang</h1>
+						<p>Director of Tech/Webmaster</p>
+						<div>
+							<i class="fas fa-envelope"></i>
+							<i class="fab fa-linkedin-in"></i>
+							<a href="https://github.com/frodakcin" target="_blank"><i class="fab fa-github"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Justin.png" alt="Justin Chiang">
+						<h1>Justin Chiang</h1>
+						<p>Director of Operations</p>
+						<div>
+							<a href="mailto:justinchiang03@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+							<i class="fab fa-linkedin-in"></i>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Greg.jpg" alt="Gregory Wu">
+						<h1>Gregory Wu</h1>
+						<p>Director of Outreach</p>
+						<div>
+							<a href="mailto:gregoryskwu@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+							<i class="fab fa-linkedin-in"></i>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Harshil.png" alt="Harshil Garg">
+						<h1>Harshil Garg</h1>
+						<p>Sponsorships</p>
+						<div>
+							<a href="mailto:harshilg06@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+							<i class="fab fa-linkedin-in"></i>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Jay.jpg" alt="Jay Paek">
+						<h1>Jay Paek</h1>
+						<p>Sponsorships</p>
+						<div>
+							<a href="mailto:orange.ninjay@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+							<a href="https://www.linkedin.com/in/jay-paek-76a4b9196" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Himanshu.jpg" alt="Himanshu Sharma">
+						<h1><small><small>Himanshu Sharma</small></small></h1>
+						<p>Sponsorships</p>
+						<div>
+							<a href="mailto:Sharmah100@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+							<i class="fab fa-linkedin-in"></i>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Anish.jpg" alt="Anish Laddha">
+						<h1>Anish Laddha</h1>
+						<p>Sponsorships</p>
+						<div>
+							<i class="fas fa-envelope"></i>
+							<i class="fab fa-linkedin-in"></i>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Neeraj.jpg" alt="Neeraj Rattehalli">
+						<h1><small>Neeraj Rattehalli</small></h1>
+						<p>Sponsorships</p>
+						<div>
+							<i class="fas fa-envelope"></i>
+							<i class="fab fa-linkedin-in"></i>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Ritu.jpg" alt="Ritu Atreyas">
+						<h1>Ritu Atreyas</h1>
+						<p>Operations</p>
+						<div>
+							<a href="mailto:ritu.atreyas@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+							<a href="https://www.linkedin.com/in/ritu-atreyas-9b3ab0175" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/KChoe.jpeg" alt="Kevin Choe">
+						<h1>Kevin Choe</h1>
+						<p>Operations</p>
+						<div>
+							<i class="fas fa-envelope"></i>
+							<i class="fab fa-linkedin-in"></i>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Siddhant.jpg" alt="Siddhant Kumar">
+						<h1><small>Siddhant Kumar</small></h1>
+						<p>Operations</p>
+						<div>
+							<i class="fas fa-envelope"></i>
+							<i class="fab fa-linkedin-in"></i>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+				<li class="TeamMember">
+					<div class="TeamMemberWrap">
+						<img src="TeamPics/Priya.jpg" alt="Priya Charagondla">
+						<h1><small><small>Priya Charagondla</small></small></h1>
+						<p>Outreach</p>
+						<div>
+							<i class="fas fa-envelope"></i>
+							<i class="fab fa-linkedin-in"></i>
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
 
-              DigitalOcean staff will be happy to help participants contact
-              venue security or local law enforcement, provide escorts, or
-              otherwise assist those experiencing harassment to feel safe for
-              the duration of the event. We value your attendance. We expect
-              participants to follow these rules at all DigitalOcean related
-              event venues.<br /><br />
+		<a href="#" class="separator"><hr></a>
 
-              Original source and credit:
-              <a target="_blank" href="http://2012.jsconf.us/#/about">http://2012.jsconf.us/#/about</a>
-              & The Ada Initiative
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </body>
-  <footer class="page-footer orange darken-1">
-    <div class="footer-logo-box">
+		<form action="2019/" target="_blank" id="linkToSH1" method="post">
+			<input type="submit" value="Click to see SolarHacks I Website" />
+		</form>
+		<br><br>
+	</div>
 
-    </div>
-
-    <div class="container">
-      <h6 class="text-light float-left">Copyright © 2019 LaunchHacks, modified with permission by the SolarHacks team</h6>
-      <a class="text-light text-lighten-4 float-right-not-mobile" href="https://github.com/ishanjainofficial/solarhacks.org/blob/master/LICENSE">MIT License</a>
-
-    </div>
-
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzOrRiR20GlQjtXY4wwLhDe_2UAEK-HPw&callback=initMap" async defer></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/vivus.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
-  </footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
 </html>
