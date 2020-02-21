@@ -55,7 +55,7 @@ body::-webkit-scrollbar-corner
 	width: 100%;
 	position: relative;
 
-	background-image: url("logo_img.png"), url("background_1.jpg");
+	background-image: url("Content/Logo/icon.png"), url("Content/Background/1.jpg");
 	background-attachment: scroll, fixed;
 	background-size: 150px 150px, cover;
 	background-position: 50% 10%, center;
