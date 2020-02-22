@@ -85,7 +85,7 @@ body::-webkit-scrollbar-corner
 	text-shadow: 2px 2px 0px #ffddff, -2px -2px 0px #ffddff,
 		-2px 2px 0px #ffddff, 2px -2px 0px #ffddff;
 	padding: 0;
-	margin: 0;
+	margin: 0.75em 0 0 0;
 }
 .frontPageSubtitle
 {
@@ -96,6 +96,7 @@ body::-webkit-scrollbar-corner
 	padding: 0;
 	margin: 0;
 }
+
 #frontPageInformation a:nth-of-type(1)
 {
 	font-size: 2.5em;
@@ -126,6 +127,60 @@ body::-webkit-scrollbar-corner
 	color: #3b009f;
 	background: #f0b0ff;
 }
+
+#frontPageInformation div:nth-of-type(1)
+{
+	margin: 4em 0 0 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+#frontPageInformation div:nth-of-type(1) a
+{
+	position: initial;
+
+	display: block;
+	margin: 0 1em;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	transition: none;
+}
+#frontPageInformation div:nth-of-type(1) a:hover
+{
+	font-size: initial;
+	bottom: initial;
+	color: initial;
+}
+#frontPageInformation div:nth-of-type(1) a input
+{
+	font-weight: 400;
+	cursor: pointer;
+
+	font-size: 1em;
+	width: 15em;
+	height: 3em;
+	border-radius: 5px;
+	border: 2px solid #3b009f;
+	color: #3a1d74;
+	background: #c080cf;
+	transition: all 0.2s;
+}
+#frontPageInformation div:nth-of-type(1) a input:hover
+{
+	font-size: 1.1em;
+	width: 13.6363636364em;
+	height: 2.72727272727em;
+	/*
+	background: #3bb09f;
+	color: #dbffff;
+	*/
+	color: #3a1d74;
+	background: #d090df;
+}
+
 #frontPageInformation a:nth-of-type(2)
 {
 	position: absolute;
