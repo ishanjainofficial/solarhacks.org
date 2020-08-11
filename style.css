@@ -572,6 +572,7 @@ body::-webkit-scrollbar-corner
 	padding: 0;
 	display: block;
 	font-family: Montserrat, sans-serif;
+	object-fit: cover;
 }
 .TeamMemberWrap h1
 {
